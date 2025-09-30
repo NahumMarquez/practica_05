@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build":"electron-builder --publish always"
   },
   "keywords": [],
   "author": "",
@@ -21,8 +22,8 @@
     "productName":"Mi reproductor de music",
     "publish":{
       "provider":"github",
-      "owner":"NahumMarquez",
-      "repo":"PRACTICA_5"
+      "owner":"Nahum Márquez",
+      "repo":"practica_05"
     }
   }
 }
