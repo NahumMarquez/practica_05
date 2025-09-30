@@ -1,0 +1,28 @@
+{
+  "name": "practica_5",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^38.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  },
+  "build":{
+    "appId":"com.gustavo.mireproductor",
+    "productName":"Mi reproductor de music",
+    "publish":{
+      "provider":"github",
+      "owner":"NahumMarquez",
+      "repo":"PRACTICA_5"
+    }
+  }
+}
